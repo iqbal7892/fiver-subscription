@@ -1,0 +1,71 @@
+
+/* Importing Bootstrap SCSS file. */
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "./node_modules/ngx-bootstrap/datepicker/bs-datepicker";
+*{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body{
+  background: #F8F8F8!important;
+  font-family: 'Poppins', sans-serif!important;
+}
+.text-primary-s {
+  font-family: 'Poppins', sans-serif!important;
+  color: #111111;
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 0rem!important;
+}
+.text-secondary-s{
+  font-family: 'Poppins', sans-serif!important;
+  color: #8A8A8A;
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 0rem!important;
+}
+.text-footer-s{
+  color: #0F0F0F;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 12px;
+cursor: pointer;
+}
+.foot-hv:hover
+
+{
+  color: #0B5ED7;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 12px;
+  cursor: pointer;
+}
+.text-primary-ls{
+  font-weight: 500;
+  color: #111111;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 20px;
+}
+.text-secondary-ls{
+  color: #8A8A8A;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 12px;
+  font-weight: normal;
+}
+.text-secondary-italic {
+
+  color: #8A8A8A;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: italic;
+}
+.text-secondary-bold{
+  color: #0F0F0F;
+  font-family: 'Poppins', sans-serif!important;
+  font-size: 16px;
+  font-weight: 600;
+
+}
