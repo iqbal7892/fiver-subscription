@@ -1,0 +1,70 @@
+.left-panel{
+    width: calc(100% - 404px);
+}
+.subs-card{
+    border-radius: 0.25rem;
+    padding: 0.5625rem;
+    min-height: 239px;
+    box-shadow: 0 3px 12px rgb(0 0 0 / 9%);
+
+    .card-img{
+        height: 135px;
+        border-radius: 2px;
+        border: 2px solid #AAAAAA;
+    }
+
+    .card-body{
+        padding: 0.75rem 0.8125rem;
+    }
+
+    .card-title{
+        font-size: 0.875rem;
+        color: #1A1A1A;
+        line-height: 1.5;
+    }
+    .card-subtitle{
+        font-size: 0.75rem;
+        color: #8D8D8D;
+    }
+}
+
+.right-panel {
+    top: 111px;
+    max-width: 374px;
+    width: 100%;
+    right: 5.474%;
+    bottom: 76px;
+
+    .card-body{
+        padding: 35px 39px 35px 43px;
+    }   
+}
+
+.subs-actions{
+    .btn {
+        border:2px solid #0F0F0F;
+        border-radius: 0.275rem;
+        font-size: 1rem;
+        font-weight: 500;
+        color: #0F0F0F;
+        display: block;
+        margin-bottom: 20px;
+        text-align: left;
+
+        img {
+            margin-right: 20px;
+        }
+    }
+}
+
+.user-widget{
+    border-top: 1px solid #E8E8E8;
+    padding: 35px 39px 35px 43px;
+
+}
+.user-menu{
+    h6{
+        color: #232323;
+        font-weight: 500;
+    }
+}

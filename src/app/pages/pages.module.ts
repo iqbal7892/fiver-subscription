@@ -22,11 +22,13 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 
 // Component
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SubscriptionComponent } from './subscription/subscription.component';
 
 
 @NgModule({
   declarations: [
-    DashboardComponent
+    DashboardComponent,
+    SubscriptionComponent
   
   ],
   imports: [
