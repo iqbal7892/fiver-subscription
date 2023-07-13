@@ -10,7 +10,7 @@
     .card-img{
         height: 135px;
         border-radius: 2px;
-        border: 2px solid #AAAAAA;
+        border: 0.5px solid #AAAAAA;
     }
 
     .card-body{
@@ -18,11 +18,9 @@
     }
 
     .card-title{
-        font-size: 0.875rem;
         color: #1A1A1A;
-        line-height: 1.5;
     }
-    .card-subtitle{
+    .card-text{
         font-size: 0.75rem;
         color: #8D8D8D;
     }
@@ -36,35 +34,60 @@
     bottom: 76px;
 
     .card-body{
-        padding: 35px 39px 35px 43px;
+        padding: 2.1875rem 2.4375rem 2.1875rem 2.6875rem;
     }   
 }
 
 .subs-actions{
     .btn {
-        border:2px solid #0F0F0F;
-        border-radius: 0.275rem;
-        font-size: 1rem;
-        font-weight: 500;
         color: #0F0F0F;
-        display: block;
-        margin-bottom: 20px;
-        text-align: left;
+        margin-bottom: 1.25rem;
+        border-color: #0F0F0F;
+
+        @media (min-width: 1400px) {
+            font-size: 1rem;
+            padding-top: 0.875rem;
+            padding-bottom: 0.875rem;
+            line-height: 1.7;
+        }
 
         img {
-            margin-right: 20px;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.sub-admin{
+    &-text{
+        font-size: 0.875rem;
+        color: #979797;
+        text-transform: uppercase;
+    }
+    &-btn{
+        background-color: #0F0F0F;
+        color: #fff;
+
+        @media (min-width: 1400px) {
+            font-size: 1rem;
+            line-height: 1.7;
+            padding-top: 0.875rem;
+            padding-bottom: 0.875rem;
         }
     }
 }
 
 .user-widget{
     border-top: 1px solid #E8E8E8;
-    padding: 35px 39px 35px 43px;
+    padding: 2.1875rem 2.4375rem 2.1875rem 2.6875rem;
 
 }
 .user-menu{
     h6{
         color: #232323;
-        font-weight: 500;
     }
+
+    p {
+        color: #9B9B9B;
+    }
+    
 }

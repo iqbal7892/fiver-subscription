@@ -1,18 +1,22 @@
 <div class="left-panel">
     <div class="sg-subs-top">
-        <h1 class="text-primary-ls">Welcome to My Manager Partner</h1>
-        <p class="text-secondary-ls">On this page, you can view a list of all available subscriptions within your organization globally. Please use the quick link buttons on the right side of the page to request access or to suggest a new subscription.                        </p>
-        <p class="text-secondary-italic">Due to limited availability, some subscriptions may require prior approval *</p>
-        <p class="text-secondary-bold">Available Subscriptions</p>
+        <div class="row">
+            <div class="col-md-11">
+                <h1 class="text-primary-ls fs-24">Welcome to My Manager Partner</h1>
+                <p class="text-secondary-ls fs-14">On this page, you can view a list of all available subscriptions within your organization globally. Please use the quick link buttons on the right side of the page to request access or to suggest a new subscription.                        </p>
+                <p class="text-secondary-italic fs-14">Due to limited availability, some subscriptions may require prior approval *</p>
+                <p class="text-secondary-bold fw-medium">Available Subscriptions</p>
+            </div>
+        </div>
     </div>
     <div class="sg-subs-bot mt-5">
         <div class="row">
-            <div class="col-md-2" *ngFor="let item of availSubs">
+            <div class="col-xxl-2 col-lg-4 col-md-6" *ngFor="let item of availSubs">
                 <div class="card subs-card">
                     <div class="card-img"></div>
                     <div class="card-body">
-                        <h6 class="card-title">{{item.title}}</h6>
-                        <p class="card-subtitle">{{item.subtitle}}</p>
+                        <h6 class="card-title fs-14 lh-base">{{item.title}}</h6>
+                        <p class="card-text">{{item.subtitle}}</p>
                     </div>
                 </div>                                  
             </div>
@@ -20,33 +24,33 @@
     </div>
 </div>
 <div class="card right-panel position-fixed overflow-auto">
-    <div class="card-header">Manage Subscriptions</div>
+    <div class="card-header text-secondary-bold fw-medium">Manage Subscriptions</div>
     <div class="card-body d-flex flex-column">
         <div class="subs-actions">
-            <a href="#" class="btn">
-                <img src="../../../assets/images/svg/description.svg" />
+            <a href="#" class="btn ps-3 border-2 rounded fw-medium d-block text-start">
+                <img class="img-fluid me-2 me-xxl-3" src="../../../assets/images/svg/description.svg" />
                 Request Subscription
             </a>
-            <a href="#" class="btn">
-                <img src="../../../assets/images/svg/request-quote.svg" />
+            <a href="#" class="btn ps-3 border-2 rounded fw-medium d-block text-start">
+                <img class="img-fluid me-2 me-xxl-3" src="../../../assets/images/svg/request-quote.svg" />
                 Suggest New Subscription
             </a>
-            <a href="#" class="btn">
-                <img src="../../../assets/images/svg/cancel-line.svg" />
+            <a href="#" class="btn ps-3 border-2 rounded fw-medium d-block text-start">
+                <img class="img-fluid me-2 me-xxl-3" src="../../../assets/images/svg/cancel-line.svg" />
                 Cancel Subscription
             </a>
         </div>
         <div class="sub-admin mt-auto">
-            <p>Administration</p>
-            <a href="#" class="btn btn-dark d-block">Manage Subscriptions</a>
+            <p class="sub-admin-text">Administration</p>
+            <a href="#" class="btn sub-admin-btn border-2 rounded fw-medium d-block">Manage Subscriptions</a>
         </div>
     </div>
     <div class="user-widget d-flex justify-content-between">
         <div class="user-menu d-flex align-items-center">
-            <img class="me-3" src="../../../assets/images/svg/user-avatar-filled.svg" />
+            <img class="me-3 rounded-circle img-fluid" src="../../../assets/images/svg/user-avatar-filled.svg" />
             <div class="user-content ms-1">
-                <h6 class="mb-0">Jone Doe</h6>
-                <p class="mb-0">Global Market</p>
+                <h6 class="mb-0 fs-16 fw-medium ls-base">Jone Doe</h6>
+                <p class="mb-0 fs-12">Global Market</p>
             </div>
         </div>
         <button class="bg-transparent border-0" type="button">
