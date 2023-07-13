@@ -1,15 +1,17 @@
-<div class="left-panel">
-    <div class="sg-subs-top">
-        <div class="row">
-            <div class="col-md-11">
-                <h1 class="text-primary-ls fs-24">Welcome to My Manager Partner</h1>
-                <p class="text-secondary-ls fs-14">On this page, you can view a list of all available subscriptions within your organization globally. Please use the quick link buttons on the right side of the page to request access or to suggest a new subscription.                        </p>
-                <p class="text-secondary-italic fs-14">Due to limited availability, some subscriptions may require prior approval *</p>
-                <p class="text-secondary-bold fw-medium">Available Subscriptions</p>
+<div class="subs-left-panel">
+    <div class="subs-top position-sticky">
+        <div class="welcome-info">
+            <div class="row">
+                <div class="col-md-11">
+                    <h1 class="text-primary-ls fs-24">Welcome to My Manager Partner</h1>
+                    <p class="text-secondary-ls fs-14">On this page, you can view a list of all available subscriptions within your organization globally. Please use the quick link buttons on the right side of the page to request access or to suggest a new subscription.                        </p>
+                    <p class="text-secondary-italic fs-14">Due to limited availability, some subscriptions may require prior approval *</p>
+                    <p class="text-secondary-bold fw-medium">Available Subscriptions</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="sg-subs-bot mt-5">
+    <div class="subs-bot mt-5">
         <div class="row">
             <div class="col-xxl-2 col-lg-4 col-md-6" *ngFor="let item of availSubs">
                 <div class="card subs-card">
@@ -23,7 +25,7 @@
         </div>
     </div>
 </div>
-<div class="card right-panel position-fixed overflow-auto">
+<div class="card subs-right-panel position-fixed overflow-auto">
     <div class="card-header text-secondary-bold fw-medium">Manage Subscriptions</div>
     <div class="card-body d-flex flex-column">
         <div class="subs-actions">
